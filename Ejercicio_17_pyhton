@@ -1,0 +1,15 @@
+import math
+
+def calcular_area(radio):
+    return math.pi * radio * radio
+
+def calcular_longitud(radio):
+    return 2 * math.pi * radio
+
+radio = float(input("Escriba el radio de un círculo:\n"))
+
+area = calcular_area(radio)
+longitud = calcular_longitud(radio)
+
+print("El área del círculo es:", area)
+print("La longitud del círculo es:", longitud)
