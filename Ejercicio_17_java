@@ -1,0 +1,27 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mypoo2.ejercicio_17;
+import java.util.Scanner;
+
+/**
+ *
+ * @author HP-255-G10
+ */
+public class Ejercicio_17 {
+
+ public static void main(String[] args) {
+
+        Scanner entrada = new Scanner(System.in);
+
+        System.out.println("Ingrese el radio: ");
+        float radio = entrada.nextFloat();
+
+        float area = calculos.calcularArea(radio);
+        float longitud = calculos.calcularLongitud(radio);
+
+        System.out.println("Área del ciírculo: " + area);
+        System.out.println("Longitud de la circunferencia: " + longitud);
+    }
+}
