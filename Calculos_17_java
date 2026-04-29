@@ -1,0 +1,20 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package com.mypoo2.ejercicio_17;
+
+
+public class calculos {
+    static final float PI = 3.1416f;
+
+    // Método estático para el área
+    public static float calcularArea(float radio) {
+        return PI * radio * radio;
+    }
+
+    // Método estático para la longitud
+    public static float calcularLongitud(float radio) {
+        return 2 * PI * radio;
+    }
+    }
